@@ -1,6 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import './Header.css'
+
+//Importing Images
 import TeslaLogo from '../assets/teslaLogoSmall.svg'
+
+
 
 const Header = () => {
     return (
