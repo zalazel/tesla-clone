@@ -35,7 +35,7 @@ function App() {
 
         <Item
           title="Model S"
-          desc="$69,420"
+          desc="Starting at $69,420"
           descLink=''
           backgroundImg={ModelS}
           leftBtnText='CUSTOM ORDER'
@@ -87,7 +87,7 @@ function App() {
 
         <Item
           title="Solar for new Roofs"
-          desc="Money-Back Guaratee"
+          desc="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
           descLink=''
           backgroundImg={SolarRoof}
           leftBtnText='ORDER NOW'
@@ -100,13 +100,15 @@ function App() {
 
         <Item
           title="Accessories"
-          desc="Money-Back Guaratee"
+          desc=""
           descLink=''
           backgroundImg={Accessories}
           leftBtnText='SHOP NOW'
           leftBtnLink=''
           rightBtnText='LEARN MORE'
           rightBtnLink=''
+          //twoButtons= 'true'
+          
           
         />
 

@@ -14,7 +14,7 @@
 
     height:24px;
     width:100px;
-    margin-top: 7px;
+    margin-top: 0px;
 }
 
 .header__center{
@@ -22,6 +22,10 @@
     flex:1;
     display:flex;
     justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    margin-left: 55px;
+
 
 
 }
@@ -37,6 +41,9 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+    margin-right:10px;
+    font-size: 14px;
+
 }
 
 .header__right>p{

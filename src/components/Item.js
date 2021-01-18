@@ -22,17 +22,19 @@ const Item = ({title, desc, descLink, backgroundImg, leftBtnText, leftBtnLink, r
                         <div className="item__buttons">
                             <Button imp="primary" text={leftBtnText} link={leftBtnLink}/> 
 
-                            {twoButtons && (
+                            
+                            {twoButtons &&(
                                 <Button imp='secondary' text={rightBtnText} link={rightBtnLink} />
-                            )}
 
-                            {first && (
+                                )}
+                            
+                        </div>
+
+                        {first && (
                                 <div className="item__expand">
-                                    <ExpandMoreIcon/>
+                                    <ExpandMoreIcon fontSize="large"/>
                                 </div>
                             )}
-
-                        </div>
                     </div>
                 </div>
             </div>
